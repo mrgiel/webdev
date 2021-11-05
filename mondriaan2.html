@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        width: 1000px;
+        max-width: 1000px;
+        box-sizing: content-box;
+        flex-direction: column;
+    }
+    .a-h, .i-m{
+        display: flex;
+        flex: 1;
+    }
+    
+    .abcf, .degh, .ij, .klm {
+        display: flex;
+        flex: 1;
+        box-sizing: content-box;
+    }
+    
+    .af {
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+    }
+    .dg{
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .eh{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .a {
+        flex: 1;
+        background-color: white;
+        border: black 3px solid;
+    }
+
+    .b {
+        flex: 6;
+        background-color: blue;
+        border: black 3px solid;
+    }
+
+    .c {
+        flex: 1;
+        background-color: white;
+        border: black 3px solid;
+    }
+
+    .f {
+        flex: 5;
+        background-color: yellow;
+        border: black 3px solid;
+    }
+    .d {
+        flex: 1;
+        background-color: yellow;
+        border: black 3px solid;
+    }
+    .e {
+        flex: 1;
+        background-color: white;
+        border: black 3px solid;
+    }
+    .g {
+        flex: 5;
+        background-color: blue;
+        border: black 3px solid;
+    }
+    .h {
+        flex: 5;
+        background-color: white;
+        border: black 3px solid;
+    }
+    .i {
+        flex: 1;
+        background-color: white;
+        border: black 3px solid;
+    }
+    .j {
+        flex: 4;
+        background-color: red;
+        border: black 3px solid;
+    }
+    .k {
+        flex: 7;
+        background-color: white;
+        border: black 3px solid;
+    }
+    .l {
+        flex: 1;
+        background-color: white;
+        border: black 3px solid;
+    }
+    .m {
+        flex: 2;
+        background-color: red;
+        border: black 3px solid;
+    }
+
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="a-h">
+            <div class="abcf">
+                <div class="af">
+                    <div class="a">A</div>
+                    <div class="f">F</div>
+                </div>
+                <div class="b">B</div>
+                <div class="c">C</div>
+            </div>
+            <div class="degh">
+                <div class="dg">
+                    <div class="d">D</div>
+                    <div class="g">G</div>
+                </div>
+                <div class="eh">
+                    <div class="e">E</div>
+                    <div class="h">H</div>
+                </div>
+            </div>
+        </div>
+        <div class="i-m">
+            <div class="ij">
+                <div class="i">I</div>
+                <div class="j">J</div>
+            </div>
+            <div class="klm">
+                <div class="k">K</div>
+                <div class="l">L</div>
+                <div class="m">M</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
