@@ -1,0 +1,59 @@
+.dobbelstenen{
+    display: flex;
+    flex-direction: row;
+}
+.dobbel1, .dobbel2, .dobbel3, .dobbel4, .dobbel5, .dobbel6 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+}
+.oog{
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.dobbel1{
+    justify-content: center;
+    align-items: center;
+}
+.dobbel2{
+    justify-content: space-between;
+}
+.dobbel2 .oog:nth-of-type(2){
+    align-self: flex-end;
+}
+.dobbel3{
+justify-content: space-between;
+}
+.dobbel3 .oog:nth-of-type(2){
+    align-self: center;
+}
+.dobbel3 .oog:nth-of-type(3){
+    align-self: flex-end;
+}
+.dobbel4, .dobbel6{
+    display: flex;
+    justify-content: space-between;
+}
+.dobbel4 .column, .dobbel6 .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dobbel5{
+    display: flex;
+    justify-content: space-between;
+}
+.dobbel5 .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.dobbel5 .column:nth-of-type(2){
+    justify-content: center;
+}
